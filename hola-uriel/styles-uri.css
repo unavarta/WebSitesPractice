@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+body, body * {
+  cursor: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .cursor {
+  position: fixed;
+  background: #19baeb;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: -10px 0 0 -10px;
+  will-change: transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  z-index: 100000;
+}
+
+body .shapes {
+  position: relative;
+  height: 95vh;
+  width: 95vw;
+  background-color: #19baeb;
+  overflow: hidden;
+}
+
+body .shapes .shape {
+  will-change: transform;
+  position: absolute;
+  border-radius: 50%;
+}
+
+body .shapes .shape.shape-1 {
+  background: #00DDFB;
+  width: 650px;
+  height: 650px;
+  margin: -325px 0 0 -325px;
+}
+
+body .shapes .shape.shape-2 {
+  background: #46268B;
+  width: 440px;
+  height: 440px;
+  margin: -220px 0 0 -220px;
+}
+
+body .shapes .shape.shape-3 {
+  background: #FF006B;
+  width: 270px;
+  height: 270px;
+  margin: -135px 0 0 -135px;
+}
+
+body .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  mix-blend-mode: screen;
+  /* .name{
+        height: 50vh;
+        width: 100vw;
+        background: #FF006B;
+    }*/
+}
+
+body .content h1 {
+  color: black;
+  font-size: 10em;
+  letter-spacing: 0.001em;
+}
+
+body .content .contact {
+  background: #46268B;
+}
+
+body .content p {
+  font: 2em;
+  float: center;
+  text-align: center;
+}
+
+body .content .links {
+  text-decoration: none;
+  color-adjust: none;
+}
+
+body .content .links:visited {
+  text-decoration: none;
+  -webkit-filter: none;
+          filter: none;
+}
+
+body .content .links:hover {
+  text-decoration: none;
+  color-adjust: none;
+}
+/*# sourceMappingURL=styles-uri.css.map */
